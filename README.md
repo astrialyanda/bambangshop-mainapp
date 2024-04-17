@@ -87,3 +87,6 @@ This is the place for you to write reflections:
 3.  Postman membantu saya melihat respon dari GET dan POST dari berbagai endpoint. Postman membantu saya dalam melakukan pengecekan pada program saya.
 
 #### Reflection Publisher-3
+1. Pada bambangshop ini, variasi observer pattern yang digunakan adlaah push model. Notification service mengirimkan notifikasi kepada subscriber jika terjadi sesuatu.
+2. Keuntungan dari pull model adalah observer hanya fetch data yang dibutuhkan dan ketika dibutuhkan. Sedangkan kerugiannya adalah model ini akan meningkatkan kompleksitas observer.
+3. Jika program tidak menggunakan multithreading maka dapat menyebabkan antrian panjang ketika ingin mengirimkan notifikasi kepada subscriber. Terutama jika terdapat banyak subscriber.
