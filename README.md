@@ -77,6 +77,9 @@ This is the place for you to write reflections:
 ### Mandatory (Publisher) Reflections
 
 #### Reflection Publisher-1
+1. Pada Observer pattern, publisher akan menyebarkan notifikasi pada semua observernya. Pada Bambangshop, observernya hanya satu class yaitu class subscriber, sehingga single model struct sudah cukup. Namun, jika akan ada penambahan observer, maka penggunaan interface akan lebih menguntungkan.
+2. Menggunakan DashMap akan mempermudah akses data serta memastikan `id` di Program dan `url` di Subscriber unik. 
+3. Menggunakan DashMap diperlukan karena DashMap merupakan library yang suitable untuk multi-threading. Bambangshop merupakan aplikasi multithread sehingga penggunaan DashMap diperlukan.
 
 #### Reflection Publisher-2
 
