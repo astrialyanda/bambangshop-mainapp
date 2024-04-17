@@ -82,5 +82,8 @@ This is the place for you to write reflections:
 3. Menggunakan DashMap diperlukan karena DashMap merupakan library yang suitable untuk multi-threading. Bambangshop merupakan aplikasi multithread sehingga penggunaan DashMap diperlukan.
 
 #### Reflection Publisher-2
+1. Memisahkan Service dan Repository diperlukan untuk memenuhi prinsip Single Responsibility Principle. Memisahkan Service dan Repository juga menghasilkan kode yang lebih rapi dan meningkatkan maintainability dan testability.
+2. Jika hanya menggunakan model maka kode akan menjadi kompleks dan sulit dimanage dan dimengerti. Hal ini akan merendahkan maintainability karena kode akan sulit untuk diubah. Selain itu, kode juga mudah muncul bug.
+3.  Postman membantu saya melihat respon dari GET dan POST dari berbagai endpoint. Postman membantu saya dalam melakukan pengecekan pada program saya.
 
 #### Reflection Publisher-3
